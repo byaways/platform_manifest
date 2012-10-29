@@ -241,7 +241,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
+  <project path="packages/apps/DeskClock" name="ThinkingBridge/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
@@ -324,9 +324,9 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/thinkingbridge" name="ThinkingBridge/android_vendor_thinkingbridge" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="ThinkingBridge/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="ThinkingBridge/android_vendor_tmobile_libs_com.tmobile.themes" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="ThinkingBridge/android_vendor_tmobile_providers_ThemeManager" />
+  <project path="vendor/tmobile/products/themes" name="ThinkingBridge/android_vendor_tmobile_products_themes" />
   
   <project path="vendor/akm" name="ThinkingBridge/proprietary_vendor_akm" remote="github" revision="jellybean" />
   <project path="vendor/broadcom" name="ThinkingBridge/proprietary_vendor_broadcom" remote="github" revision="jellybean" />
