@@ -329,15 +329,8 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="ThinkingBridge/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="ThinkingBridge/android_vendor_tmobile_products_themes" />
   
-  <project path="vendor/akm" name="ThinkingBridge/proprietary_vendor_akm" remote="github" revision="jellybean" />
-  <project path="vendor/broadcom" name="ThinkingBridge/proprietary_vendor_broadcom" remote="github" revision="jellybean" />
-  <project path="vendor/imgtec" name="ThinkingBridge/proprietary_vendor_imgtec" remote="github" revision="jellybean" />
-  <project path="vendor/nxp" name="ThinkingBridge/proprietary_vendor_nxp" remote="github" revision="jellybean" />
-  <project path="vendor/samsung" name="ThinkingBridge/proprietary_vendor_samsung" remote="github" revision="jellybean" />
-  <project path="vendor/elan" name="ThinkingBridge/proprietary_vendor_elan" remote="github" revision="jellybean" />
-  <project path="vendor/asus" name="ThinkingBridge/proprietary_vendor_asus" remote="github" revision="jellybean" />
-  <project path="vendor/nvidia" name="ThinkingBridge/proprietary_vendor_nvidia" remote="github" revision="jellybean" />
-  <project path="vendor/invensense" name="ThinkingBridge/proprietary_vendor_invensense" remote="github" revision="jellybean" />
-  <project path="vendor/widevine" name="ThinkingBridge/proprietary_vendor_widevine" remote="github" revision="jellybean" />
+  <project path="vendor/samsung" name="AOKP/vendor_samsung" revision="jb" />
+  <project path="vendor/htc" name="AOKP/vendor_htc" revision="jb" />
+  <project path="vendor/asus" name="AOKP/vendor_asus" revision="jb" />
         
 </manifest>
