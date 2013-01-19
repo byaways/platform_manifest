@@ -29,10 +29,9 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="platform_dalvik" remote="thinkingbridge" revision="jb-mr1" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/asus/tilapia" name="platform_device_asus_tilapia" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -227,7 +226,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -279,7 +278,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="ParanoidAndroid/android_packages_apps_Launcher2" remote="github" revision="jellybean"/>
   <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="thinkingbridge" revision="jb-mr1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="thinkingbridge" revision="jb-mr1" />
