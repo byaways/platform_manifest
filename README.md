@@ -24,4 +24,4 @@ After the sync is finished, please read the [instructions from the Android site]
 
 You can also build a flashable zip with
 
-    mka bacon
+    time mka bacon
