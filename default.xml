@@ -260,7 +260,7 @@
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="jb-mr1-release" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="jb-mr1-release" />
-  <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="jb-mr1-release" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="jb-mr1-release" />
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="cm" revision="cm-10.1" />
