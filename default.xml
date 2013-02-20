@@ -44,6 +44,7 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="thinkingbridge" revision="cm-10.1" />
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="thinkingbridge" revision="cm-10.1" />
   <project path="device/samsung/i9100" name="platform_device_samsung_i9100" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="platform_device_samsung_i9300" remote="thinkingbridge" revision="jb-mr1" />
@@ -263,6 +264,7 @@
   <project path="kernel/lge/mako" name="faux123/mako" remote="github" revision="enhanced_stock" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr1.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
