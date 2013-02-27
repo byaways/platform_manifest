@@ -28,7 +28,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="platform_dalvik" remote="thinkingbridge" revision="jb-mr1" />
   <project path="development" name="android_development" remote="cm" revision="cm-10.1" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="thinkingbridge" revision="cm-10.1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
@@ -41,10 +41,9 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="thinknigbridge" revision="jb-mr1" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="thinknigbridge" revision="cm-10.1" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="platform_device_samsung_i9100" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="platform_device_samsung_i9300" remote="thinkingbridge" revision="jb-mr1" />
@@ -373,7 +372,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   
-  <project path="vendor/asus" name="vendor_asus" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/thinkingbridge" name="vendor_thinkingbridge" remote="thinkingbridge" revision="jb-mr1" />
