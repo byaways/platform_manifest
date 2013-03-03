@@ -5,7 +5,7 @@
   fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="16" />
 
   <remote name="thinkingbridge"
       fetch="git://github.com/ThinkingBridge/" />
@@ -43,12 +43,10 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="thinkingbridge" revision="cm-10.1" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="platform_device_samsung_i9100" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="platform_device_samsung_i9300" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/n7000" name="platform_device_samsung_n7000" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/n7100" name="platform_device_samsung_n7100" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -306,7 +304,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="koush/Superuser" remote="github" revision="master" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Torch" name="htchoi1995/packages_apps_Torch" remote="github" revision="jb-mr1" />
   <project path="packages/apps/TBWallpapers" name="platform_packages_apps_TBWallpapers" remote="thinkingbridge" revision="jb-mr1" />
   <project path="packages/apps/Trebuchet" name="platform_packages_apps_Trebuchet" remote="thinkingbridge" revision="jb-mr1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
