@@ -23,7 +23,7 @@
   <project path="build" name="platform_build" revision="jb-mr1" remote="thinkingbridge" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="teambridge" name="buildscripts"revision="jb-mr1" remote="thinkingbridge" >
+  <project path="teambridge" name="buildscripts" revision="jb-mr1" remote="thinkingbridge" >
     <copyfile src="build_tb.sh" dest="build_tb.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
