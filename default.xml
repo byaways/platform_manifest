@@ -268,6 +268,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr1" />
   <project path="libcore" name="platform_libcore" remote="thinkingbridge" revision="jb-mr1" />
