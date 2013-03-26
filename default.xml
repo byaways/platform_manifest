@@ -46,7 +46,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="platform_device_samsung_galaxys2-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/aries-common" name="platform_device_samsung_aries-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/galaxysmtd" name="platform_device_samsung_galaxysmtd" remote="thinkingbridge" revision="jb-mr1" />
