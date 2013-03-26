@@ -388,6 +388,7 @@
   <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/thinkingbridge" name="vendor_thinkingbridge" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="vendor/thinkingbridge/bot" name="pseudo_buildbot" remote="thinkingbridge" revision="jb-mr1" />
 
   <project path="android" name="platform_manifest" remote="thinkingbridge" revision="jb-mr1" />
 </manifest>
