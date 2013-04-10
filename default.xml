@@ -52,7 +52,7 @@
   <project path="device/samsung/i9300" name="platform_device_samsung_i9300" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/omap4-common" name="platform_device_samsung_omap4-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/n7000" name="platform_device_samsung_n7000" remote="thinkingbridge" revision="jb-mr1" />
-  <project path="device/samsung/n71000" name="platform_device_samsung_n7100" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="device/samsung/n7100" name="platform_device_samsung_n7100" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="platform_device_samsung_smdk4412-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
