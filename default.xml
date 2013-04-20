@@ -396,7 +396,7 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/htc" name="vendor_htc" remote="aokp" revision="ics" />
+  <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" remote="github" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/thinkingbridge" name="vendor_thinkingbridge" remote="thinkingbridge" revision="jb-mr1" />
