@@ -50,6 +50,8 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/mako" name="platform_device_samsung_mako" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="device/samsung/e975" name="platform_device_lge_e975" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="platform_device_samsung_galaxys2-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/aries-common" name="platform_device_samsung_aries-common" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/samsung/galaxysmtd" name="platform_device_samsung_galaxysmtd" remote="thinkingbridge" revision="jb-mr1" />
@@ -287,6 +289,8 @@
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr1" />
+  <project path="kernel/lge/gproj" name="lge-kernel-gproj" remote="cm" revision="cm-10.1" />
+  <project path="kernel/lge/mako" name="faux123/mako" remote="github" revision="enhanced_stock" />
   
   <project path="libcore" name="platform_libcore" remote="thinkingbridge" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
