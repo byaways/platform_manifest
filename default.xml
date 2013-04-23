@@ -9,12 +9,16 @@
 
   <remote name="thinkingbridge"
       fetch="git://github.com/ThinkingBridge/" />
+  
+  <remote name="tm"
+      fetch="git://github.com/TheMuppets" />
       
   <remote  name="github"
       fetch="https://github.com/" />
          
   <remote name="aokp"
-      fetch="git://github.com/AOKP/" />
+      fetch="git://github.com/AOKP/"
+      review="gerrit.sudoservers.com/" />
 
   <remote name="cm"
       fetch="git://github.com/CyanogenMod/"
@@ -395,10 +399,20 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   
-  <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-10.1" />
   <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" remote="github" revision="cm-10.1" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.1" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.1" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-10.1" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.1" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.1" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.1" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.1" />
+  <project path="vendor/akm" name="proprietary_vendor_akm" remote="tm" revision="cm-10.1" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-10.1" />
+  <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.1" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.1" />
   <project path="vendor/thinkingbridge" name="vendor_thinkingbridge" remote="thinkingbridge" revision="jb-mr1" />
   <project path="vendor/thinkingbridge/bot" name="pseudo_buildbot" remote="thinkingbridge" revision="jb-mr1" />
 
